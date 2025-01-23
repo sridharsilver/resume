@@ -1,0 +1,88 @@
+.cusHeader-cont {
+  border: 1px solid rgba(255, 255, 255, 0.051);
+  background-color: rgba(126, 126, 126, 0.076);
+  /* background-color: rgba(252, 111, 40, 0.102);
+  border: 1px solid rgba(190, 192, 192, 0.05); */
+  border-radius: 06px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  opacity: 1;
+  box-shadow: rgba(255, 255, 255, 0.05) 0px 0px 8px 0px inset;
+}
+.cusHeader-cont .row .cusHeader-wrapper {
+  padding: 18px 22px;
+}
+.cusHeader-cont .row .cusHeader-wrapper .logo-box a img {
+  width: 50px;
+  height: 50px;
+}
+.cusHeader-cont .row .cusHeader-wrapper .header-button a {
+  border-radius: 060px;
+}
+
+.footer-logo-box a img {
+  width: 80px;
+  height: 80px;
+}
+
+.skills-widget .skill-item .icon-box img {
+  width: 100%;
+}
+
+.myResume-wrapper {
+  border: 1px solid #3617007a;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 385px;
+  overflow: hidden;
+  transition: height 2s ease-in-out;
+  transition-delay: 0.2s;
+  border-radius: 16px;
+  /* box-shadow: 0 0 20px 6px #6c534824; */
+}
+.myResume-wrapper .gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 119, 0, 0.051), rgba(7, 4, 0, 0.832), rgb(3, 1, 0));
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.595), rgb(0 0 0)); */
+  transition: all 2s ease-in-out;
+}
+.myResume-wrapper figure {
+  width: 100%;
+  border-radius: 16px;
+  margin: 0;
+}
+.myResume-wrapper figure img {
+  border-radius: 16px;
+  width: 100%;
+}
+.myResume-wrapper button.tj-btn-primary {
+  position: absolute;
+  top: calc(100% - 100px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.downloadCv-btn.tj-btn-primary {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  display: none;
+}
+a {
+  color: unset !important;
+  text-decoration: none !important;
+  .downloadCv-btn.tj-btn-primary {
+    font-family: var(--tj-ff-body);
+    font-size: 15px;
+    text-decoration: none !important;
+    color: #ffffff;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
